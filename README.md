@@ -19,6 +19,3 @@ Tekst wpisany w edytor jest kompresowany za pomocą [LZString](https://github.co
 - LZString – kompresja tekstu
 - History API – aktualizacja URL bez przeładowania strony
 
-## Demo
-
-[urlnotepad demo](https://citrustiara.github.io/Portfolio/projekty/urlnotepad/demo.html)
