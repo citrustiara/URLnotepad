@@ -1,21 +1,24 @@
 # URL Notepad
 
-Minimalistyczny notatnik, który zapisuje całą treść bezpośrednio w adresie URL. Bez serwera, bez bazy danych – wystarczy skopiować link, żeby zachować notatkę.
+A minimalist notepad that stores all content directly in the URL. No server, no database – just copy the link to save your note.
 
-## Jak to działa
+## How it works
 
-Tekst wpisany w edytor jest kompresowany za pomocą [LZString](https://github.com/pieroxy/lz-string) i zapisywany w hashu URL. Dzięki temu cały stan notatki jest zawarty w samym linku – można go wysłać komuś lub zapisać jako zakładkę.
+Text entered in the editor is compressed using [LZString](https://github.com/pieroxy/lz-string) and stored in the URL hash. The entire note state is contained within the link itself – you can send it to someone or save it as a bookmark.
 
-## Funkcje
+## Features
 
-- Automatyczny zapis do URL przy każdej zmianie tekstu
-- Kompresja LZString (nawet ~10× mniejszy rozmiar)
-- Przyciski do kopiowania URL i tekstu
-- Całość działa w przeglądarce (client-side only)
+- Automatic save to URL on every text change
+- LZString compression (~10× smaller size)
+- Copy buttons for URL and text
+- Runs entirely in the browser (client-side only)
 
-## Technologie
+## Technologies
 
 - JavaScript (vanilla)
-- LZString – kompresja tekstu
-- History API – aktualizacja URL bez przeładowania strony
+- LZString – text compression
+- History API – URL update without page reload
 
+## Usage
+
+- copy the file and host it for free on GitHub/Clodflare pages then use it to save and share notes
